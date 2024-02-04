@@ -414,6 +414,7 @@
 
 <h1> no projects for now! </h1>
 <p> maybe in the future if i can get servers :skul: </p>
+</div>
             <div class="footer-section">
                 <p>
                     <LocalizedText
