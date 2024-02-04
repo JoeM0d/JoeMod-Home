@@ -414,7 +414,7 @@
             Enter VR
         </button>
     {/if}
-
+  
     <h1>no projects for now!</h1>
     <p>maybe in the future if i can get servers :skul:</p>
     <div class="footer-section">
@@ -458,6 +458,53 @@
         <a href={"/donate"}>JoeMod</a>
         <a target="_blank" href={LINK.donate.turbowarp}>TurboWarp</a>
         <a target="_blank" href={LINK.donate.scratch}>Scratch</a>
+=======
+<h1> no projects for now! </h1>
+<p> maybe in the future if i can get servers :skul: </p>
+</div>
+            <div class="footer-section">
+                <p>
+                    <LocalizedText
+                        text="Info"
+                        key="home.footer.sections.info"
+                        lang={currentLang}
+                    />
+                </p>
+                <a href={LINK.terms}>
+                    <LocalizedText
+                        text="Terms of Service"
+                        key="home.footer.sections.info.terms"
+                        lang={currentLang}
+                    />
+                </a>
+                <a href={LINK.privacy}>
+                    <LocalizedText
+                        text="Privacy Policy"
+                        key="home.footer.sections.info.privacy"
+                        lang={currentLang}
+                    />
+                </a>
+                <a target="_blank" href={"/guidelines/uploading"}>
+                    <LocalizedText
+                        text="Uploading Guidelines"
+                        key="home.footer.sections.info.guidelines"
+                        lang={currentLang}
+                    />
+                </a>
+            </div>
+            <div class="footer-section">
+                <p>
+                    <LocalizedText
+                        text="Donate"
+                        key="home.footer.sections.donate"
+                        lang={currentLang}
+                    />
+                </p>
+                <a href={"/donate"}>JoeMod</a>
+                <a target="_blank" href={LINK.donate.turbowarp}>TurboWarp</a>
+                <a target="_blank" href={LINK.donate.scratch}>Scratch</a>
+            </div>
+        </div>
     </div>
 </div>
 
