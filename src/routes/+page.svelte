@@ -444,7 +444,6 @@
                         lang={currentLang}
                     />
                 </a>
-            </div>
             <div class="footer-section">
                 <p>
                     <LocalizedText
@@ -458,8 +457,6 @@
                 <a target="_blank" href={LINK.donate.scratch}>Scratch</a>
             </div>
         </div>
-    </div>
-</div>
 
 <style>
     * {
